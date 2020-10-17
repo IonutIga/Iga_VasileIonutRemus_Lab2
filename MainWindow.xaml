@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Iga_VasileIonutRemus_Lab2"
         mc:Ignorable="d"
-        Title="Virtual Doughnuts Factory" Height="450" Width="800" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" ResizeMode="NoResize">
+        Title="Virtual Doughnuts Factory" Height="520" Width="800" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" ResizeMode="NoResize">
     <Grid>
         <Label x:Name="lblTitle" Content="Doughnuts - Bake &amp; Sale" HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
-        <GroupBox x:Name="gbRaised" Header="Raised" Margin="126,143,489,186" FontWeight="Bold">
+        <GroupBox x:Name="gbRaised" Header="Raised" Margin="126,143,466,252" FontWeight="Bold">
             <Canvas>
                 <Label x:Name="lblGlazedRaised" Content="Glazed" Canvas.Left="14" Canvas.Top="5" Height="30"/>
                 <Label x:Name="lblSugarRaised" Content="Sugar" Canvas.Left="14" Canvas.Top="35"/>
@@ -19,7 +19,7 @@
             </Canvas>
 
         </GroupBox>
-        <GroupBox x:Name="gbFilled" Header="Filled" Margin="370,124,215,164" FontWeight="Bold">
+        <GroupBox x:Name="gbFilled" Header="Filled" Margin="370,124,184,234" FontWeight="Bold">
             <Canvas>
                 <Label x:Name="lblLemonFilled" Content="Lemon" Canvas.Left="10" Canvas.Top="10"/>
                 <Label x:Name="lblChocolateFilled" Content="Chocolate" Canvas.Left="10" Canvas.Top="40"/>
@@ -30,7 +30,7 @@
 
             </Canvas>
         </GroupBox>
-        <GroupBox x:Name="gbSale" Header="Current Sale" Margin="74,275,154,10" FontWeight="Bold">
+        <GroupBox x:Name="gbSale" Header="Current Sale" Margin="74,275,118,10" FontWeight="Bold">
             <Canvas>
                 <Label x:Name="lblQuantity" Content="Quantity" Canvas.Left="24" Canvas.Top="10"/>
                 <TextBox x:Name="txtQuantity" TextWrapping="Wrap" Width="53" Canvas.Left="88" Canvas.Top="15" Height="22" FontWeight="Bold"/>
