@@ -62,7 +62,11 @@ Width="131">
                                   IsCheckable="True"
                                   Click="sugarToolStripMenuItem_Click"/>
                     </MenuItem>
-                    <MenuItem Header="Filled"/>
+                    <MenuItem Header="Filled">
+                        <MenuItem Header="Lemon" x:Name="lemonToolStripMenuItem" IsCheckable="True" Click="lemonToolStripMenuItem_Click"/>
+                        <MenuItem Header="Chocolate" x:Name="chocolateToolStripMenuItem" IsCheckable="True" Click="chocolateToolStripMenuItem_Click"/>
+                        <MenuItem Header="Vanilla" x:Name="vanillaToolStripMenuItem" IsCheckable="True" Click="vanillaToolStripMenuItem_Click"/>
+                    </MenuItem>
                 </MenuItem>
                 <MenuItem x:Name="mnuStop" Header="Stop"
                           Click="stopToolStripMenuItem_Click"/>
